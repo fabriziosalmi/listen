@@ -35,9 +35,17 @@
             opacity: 0;
          }
       }
+      .blink_bg{
+		   animation: blinkingBackground 0.33s linear infinite;
+	   }
+	   @keyframes blinkingBackground{
+         50% {
+            opacity: 0;
+         }
+	   }
    </style>
 </head>
-<body>
+<body class="blink_bg">
    <div class="container">
       <div class="jumbotron">
          <h1 class="display-3 blink_me">Free Underground Tekno</h1>
