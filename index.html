@@ -16,18 +16,19 @@
       }
       h1 {
          padding-top: 23px;
-         font-size: 3rem;
+         font-size: 2rem;
       }
       .lead {
          font-size: 1rem;
          font-weight: bold;
+	 color: yellow;
       }
       .history {
          width: 90%;
          display: inline-block;
       }
       .blink_me {
-         animation: blinker 0.3s linear infinite;
+         animation: blinker 0.2s linear infinite;
       }
 
       @keyframes blinker {
@@ -35,14 +36,6 @@
             opacity: 0;
          }
       }
-      .blink_bg{
-		   animation: blinkingBackground 0.33s linear infinite;
-	   }
-	   @keyframes blinkingBackground{
-         50% {
-            opacity: 0;
-         }
-	   }
    </style>
 </head>
 <body class="blink_bg">
